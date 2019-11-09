@@ -192,6 +192,8 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
   $('.horizontal_menu').slick({
+      dots: false,
+      arrows: false,
       slidesToShow: 6,
       slidesToScroll: 1,
       infinite: false,
